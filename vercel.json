@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat.js" },
+    { "source": "/api/order", "destination": "/api/order.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
